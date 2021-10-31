@@ -438,27 +438,9 @@ Text Label 10250 4425 2    50   ~ 0
 NRF_SWIO
 Text Label 10250 4525 2    50   ~ 0
 NRF_SWCLK
-$Comp
-L MicroMod_Extension:XKB_U262-16XN-4BVC11 J2
-U 1 1 617B133B
-P 1550 7950
-F 0 "J2" H 1583 9125 50  0000 C CNN
-F 1 "XKB_U262-16XN-4BVC11" H 1583 9034 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11" H 1580 7960 50  0001 C CNN
-F 3 "" H 1580 7960 50  0001 C CNN
-	1    1550 7950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2050 8650 2050 8750
 Wire Wire Line
 	2050 9000 1450 9000
-Connection ~ 2050 8750
-Wire Wire Line
-	2050 8750 2050 9000
 Connection ~ 2050 9000
-Connection ~ 2050 8050
-Connection ~ 2050 7800
 Wire Wire Line
 	2050 7200 2050 7300
 Wire Wire Line
@@ -469,8 +451,6 @@ Wire Wire Line
 	2150 8450 2150 7300
 Wire Wire Line
 	2150 7300 2050 7300
-Connection ~ 2050 8450
-Connection ~ 2050 7300
 NoConn ~ 2050 8250
 NoConn ~ 2050 8350
 $Comp
@@ -486,7 +466,6 @@ F 3 "" H 2050 7000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2050 7000 2050 7100
-Connection ~ 2050 7000
 $Comp
 L MicroMod_Extension:2450BM14E0003T FL1
 U 1 1 61774341
@@ -954,7 +933,6 @@ Text Label 2150 8450 0    50   ~ 0
 OTG_FS_VBUS
 Wire Wire Line
 	2050 7200 2150 7200
-Connection ~ 2050 7200
 NoConn ~ 12050 4825
 NoConn ~ 12050 4725
 NoConn ~ 12050 4625
@@ -2051,6 +2029,168 @@ Wire Wire Line
 Wire Wire Line
 	8500 5850 8500 5325
 Connection ~ 8500 5325
-Text Notes 13400 6000 0    50   ~ 0
- MOTOR, NRF FLASH, BATT PIN\nVL53L1 AND FLOW
+Connection ~ 2050 7200
+Connection ~ 2050 7000
+Connection ~ 2050 7300
+Connection ~ 2050 8450
+Connection ~ 2050 7800
+Connection ~ 2050 8050
+Connection ~ 2050 8750
+Wire Wire Line
+	2050 8750 2050 9000
+Wire Wire Line
+	2050 8650 2050 8750
+$Comp
+L MicroMod_Extension:XKB_U262-16XN-4BVC11 J2
+U 1 1 617B133B
+P 1550 7950
+F 0 "J2" H 1583 9125 50  0000 C CNN
+F 1 "XKB_U262-16XN-4BVC11" H 1583 9034 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11" H 1580 7960 50  0001 C CNN
+F 3 "" H 1580 7960 50  0001 C CNN
+	1    1550 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x04 J?
+U 1 1 6180CF84
+P 12900 1025
+F 0 "J?" H 12980 1017 50  0000 L CNN
+F 1 "Screw_Terminal_01x04" H 12980 926 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 12900 1025 50  0001 C CNN
+F 3 "~" H 12900 1025 50  0001 C CNN
+	1    12900 1025
+	1    0    0    -1  
+$EndComp
+Text Label 12700 925  2    50   ~ 0
+NRF_SWCLK
+Text Label 12700 1225 2    50   ~ 0
+NRF_SWIO
+Text Label 12700 1025 2    50   ~ 0
+VCC_NRF
+$Comp
+L power:GND #PWR?
+U 1 1 61871AB2
+P 12700 1125
+F 0 "#PWR?" H 12700 875 50  0001 C CNN
+F 1 "GND" V 12705 997 50  0000 R CNN
+F 2 "" H 12700 1125 50  0001 C CNN
+F 3 "" H 12700 1125 50  0001 C CNN
+	1    12700 1125
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6189B41D
+P 14925 900
+F 0 "J?" H 15005 892 50  0000 L CNN
+F 1 "Conn_01x02" H 15005 801 50  0000 L CNN
+F 2 "" H 14925 900 50  0001 C CNN
+F 3 "~" H 14925 900 50  0001 C CNN
+	1    14925 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6189BE51
+P 14725 1000
+F 0 "#PWR?" H 14725 750 50  0001 C CNN
+F 1 "GND" V 14730 872 50  0000 R CNN
+F 2 "" H 14725 1000 50  0001 C CNN
+F 3 "" H 14725 1000 50  0001 C CNN
+	1    14725 1000
+	0    1    1    0   
+$EndComp
+Text GLabel 14725 900  0    50   Input ~ 0
+BATT
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 6197BE2D
+P 14900 2250
+F 0 "J?" H 14980 2242 50  0000 L CNN
+F 1 "Conn_01x08" H 14980 2151 50  0000 L CNN
+F 2 "MicroMod_Extension:JST_SUR_BM08B-SURS-TF_1x08-1MP_P0.80mm_Vertical" H 14900 2250 50  0001 C CNN
+F 3 "~" H 14900 2250 50  0001 C CNN
+	1    14900 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 6197CCB9
+P 14900 3300
+F 0 "J?" H 14980 3292 50  0000 L CNN
+F 1 "Conn_01x08" H 14980 3201 50  0000 L CNN
+F 2 "MicroMod_Extension:JST_SUR_BM08B-SURS-TF_1x08-1MP_P0.80mm_Vertical" H 14900 3300 50  0001 C CNN
+F 3 "~" H 14900 3300 50  0001 C CNN
+	1    14900 3300
+	1    0    0    -1  
+$EndComp
+Text Label 14700 1950 2    50   ~ 0
+VCC
+Text Label 14700 3000 2    50   ~ 0
+VCC
+$Comp
+L power:GND #PWR?
+U 1 1 619F4806
+P 14700 2650
+F 0 "#PWR?" H 14700 2400 50  0001 C CNN
+F 1 "GND" V 14705 2522 50  0000 R CNN
+F 2 "" H 14700 2650 50  0001 C CNN
+F 3 "" H 14700 2650 50  0001 C CNN
+	1    14700 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61A085B5
+P 14700 3700
+F 0 "#PWR?" H 14700 3450 50  0001 C CNN
+F 1 "GND" V 14705 3572 50  0000 R CNN
+F 2 "" H 14700 3700 50  0001 C CNN
+F 3 "" H 14700 3700 50  0001 C CNN
+	1    14700 3700
+	0    1    1    0   
+$EndComp
+Text Label 14700 2150 2    50   ~ 0
+MOTOR1
+Text Label 14700 2250 2    50   ~ 0
+MOTOR2
+Text Label 14700 2350 2    50   ~ 0
+MOTOR3
+Text Label 14700 2450 2    50   ~ 0
+MOTOR4
+$Comp
+L power:GND #PWR?
+U 1 1 61A7FB45
+P 14700 2550
+F 0 "#PWR?" H 14700 2300 50  0001 C CNN
+F 1 "GND" V 14705 2422 50  0000 R CNN
+F 2 "" H 14700 2550 50  0001 C CNN
+F 3 "" H 14700 2550 50  0001 C CNN
+	1    14700 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61A9399D
+P 14700 2050
+F 0 "#PWR?" H 14700 1800 50  0001 C CNN
+F 1 "GND" V 14705 1922 50  0000 R CNN
+F 2 "" H 14700 2050 50  0001 C CNN
+F 3 "" H 14700 2050 50  0001 C CNN
+	1    14700 2050
+	0    1    1    0   
+$EndComp
+Text Label 14700 3100 2    50   ~ 0
+E_SDA
+Text Label 14700 3200 2    50   ~ 0
+E_SCL
+Text Label 14700 3300 2    50   ~ 0
+E_SPI_SCK
+Text Label 14700 3400 2    50   ~ 0
+E_SPI_MISO
+Text Label 14700 3500 2    50   ~ 0
+E_SPI_MOSI
+Text Label 14700 3600 2    50   ~ 0
+B4
 $EndSCHEMATC
