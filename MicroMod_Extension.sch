@@ -2068,26 +2068,26 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J7
 U 1 1 6189B41D
-P 15425 975
-F 0 "J7" H 15505 967 50  0000 L CNN
-F 1 "Conn_01x02" H 15505 876 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 15425 975 50  0001 C CNN
-F 3 "~" H 15425 975 50  0001 C CNN
-	1    15425 975 
+P 15400 750
+F 0 "J7" H 15480 742 50  0000 L CNN
+F 1 "Conn_01x02" H 15480 651 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 15400 750 50  0001 C CNN
+F 3 "~" H 15400 750 50  0001 C CNN
+	1    15400 750 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0134
 U 1 1 6189BE51
-P 15225 1075
-F 0 "#PWR0134" H 15225 825 50  0001 C CNN
-F 1 "GND" V 15230 947 50  0000 R CNN
-F 2 "" H 15225 1075 50  0001 C CNN
-F 3 "" H 15225 1075 50  0001 C CNN
-	1    15225 1075
+P 15200 850
+F 0 "#PWR0134" H 15200 600 50  0001 C CNN
+F 1 "GND" V 15205 722 50  0000 R CNN
+F 2 "" H 15200 850 50  0001 C CNN
+F 3 "" H 15200 850 50  0001 C CNN
+	1    15200 850 
 	0    1    1    0   
 $EndComp
-Text GLabel 15225 975  0    50   Input ~ 0
+Text GLabel 15200 750  0    50   Input ~ 0
 BATT
 $Comp
 L Connector_Generic:Conn_01x08 J5
@@ -2247,4 +2247,94 @@ Wire Wire Line
 	10175 2375 10175 2225
 Wire Wire Line
 	10175 2225 10250 2225
+$Comp
+L Connector:TestPoint TP4
+U 1 1 6181E613
+P 14925 1200
+F 0 "TP4" H 14983 1318 50  0000 L CNN
+F 1 "TestPoint" H 14983 1227 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D3.0mm" H 15125 1200 50  0001 C CNN
+F 3 "~" H 15125 1200 50  0001 C CNN
+	1    14925 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 6181F914
+P 15150 1200
+F 0 "TP5" H 15208 1318 50  0000 L CNN
+F 1 "TestPoint" H 15208 1227 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D3.0mm" H 15350 1200 50  0001 C CNN
+F 3 "~" H 15350 1200 50  0001 C CNN
+	1    15150 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 6183323A
+P 15350 1200
+F 0 "TP6" H 15408 1318 50  0000 L CNN
+F 1 "TestPoint" H 15408 1227 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D3.0mm" H 15550 1200 50  0001 C CNN
+F 3 "~" H 15550 1200 50  0001 C CNN
+	1    15350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 618469A4
+P 15575 1200
+F 0 "TP7" H 15633 1318 50  0000 L CNN
+F 1 "TestPoint" H 15633 1227 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D3.0mm" H 15775 1200 50  0001 C CNN
+F 3 "~" H 15775 1200 50  0001 C CNN
+	1    15575 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14925 1200 15150 1200
+Connection ~ 15150 1200
+Wire Wire Line
+	15150 1200 15350 1200
+Connection ~ 15350 1200
+Wire Wire Line
+	15350 1200 15575 1200
+$Comp
+L power:GND #PWR0140
+U 1 1 6186E42C
+P 15150 1200
+F 0 "#PWR0140" H 15150 950 50  0001 C CNN
+F 1 "GND" V 15155 1072 50  0000 R CNN
+F 2 "" H 15150 1200 50  0001 C CNN
+F 3 "" H 15150 1200 50  0001 C CNN
+	1    15150 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MicroMod_Extension:2199230-4 J10
+U 1 1 61980F5E
+P 13625 3700
+F 0 "J10" H 13625 5767 50  0000 C CNN
+F 1 "2199230-4" H 13625 5676 50  0000 C CNN
+F 2 "MicroMod_Extension:M.2-CARD-E-22" H 13625 3700 50  0001 L BNN
+F 3 "" H 13625 3700 50  0001 L BNN
+F 4 "Compliant" H 13625 3700 50  0001 L BNN "EU_RoHS_Compliance"
+F 5 "2199230-4" H 13625 3700 50  0001 L BNN "Comment"
+	1    13625 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP8
+U 1 1 6199C5E3
+P 14775 1200
+F 0 "TP8" H 14833 1318 50  0000 L CNN
+F 1 "TestPoint" H 14833 1227 50  0000 L CNN
+F 2 "MicroMod_Extension:97730256330R" H 14975 1200 50  0001 C CNN
+F 3 "~" H 14975 1200 50  0001 C CNN
+	1    14775 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14775 1200 14925 1200
+Connection ~ 14925 1200
 $EndSCHEMATC

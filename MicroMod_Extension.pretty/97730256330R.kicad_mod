@@ -1,0 +1,40 @@
+(module 97730256330R (layer F.Cu) (tedit 6180AB32)
+  (fp_text reference REF** (at -3.683 0.889) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 97730256330R (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd custom (at 0.8255 1.2065) (size 0.2 0.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.508 -1.0795) (xy -0.1905 -0.9525) (xy 0.1905 -0.6985) (xy 0.4445 -0.381) (xy 0.635 0)
+         (xy 0.6985 0.3175) (xy -0.762 0.3175) (xy -0.762 -1.143)) (width 0.1))
+    ))
+  (pad 1 smd custom (at 0.635 2.667) (size 0.2 0.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0.8255 -0.381) (xy 0.6985 -0.0635) (xy 0.4445 0.3175) (xy 0.127 0.5715) (xy -0.254 0.762)
+         (xy -0.5715 0.8255) (xy -0.5715 -0.635) (xy 0.889 -0.635)) (width 0.1))
+    ))
+  (pad 1 smd custom (at -1.016 1.0795) (size 0.2 0.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.762 0.1905) (xy -0.635 -0.127) (xy -0.381 -0.508) (xy -0.0635 -0.762) (xy 0.3175 -0.9525)
+         (xy 0.635 -1.016) (xy 0.635 0.4445) (xy -0.8255 0.4445)) (width 0.1))
+    ))
+  (pad 1 smd custom (at -0.6985 2.413) (size 0.2 0.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0.0635 1.016) (xy -0.254 0.889) (xy -0.635 0.635) (xy -0.889 0.3175) (xy -1.0795 -0.0635)
+         (xy -1.143 -0.381) (xy 0.3175 -0.381) (xy 0.3175 1.0795)) (width 0.1))
+    ))
+)
