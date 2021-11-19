@@ -47,9 +47,9 @@ SPI2_MISO
 Text Label 1450 1950 2    50   ~ 0
 SPI2_MOSI
 Text Label 1450 2050 2    50   ~ 0
-MOTOR2
+B11
 Text Label 1450 2150 2    50   ~ 0
-B10
+MOTOR2
 Text Label 1450 2450 2    50   ~ 0
 INT_GYR
 Text Label 1450 2550 2    50   ~ 0
@@ -67,7 +67,7 @@ C13
 Text Label 1450 3150 2    50   ~ 0
 B5
 Text Label 1450 3250 2    50   ~ 0
-B8
+MOTOR4
 Text Label 1450 3650 2    50   ~ 0
 VCC
 Text Label 1450 3750 2    50   ~ 0
@@ -85,7 +85,7 @@ VCC_NRF
 Text Label 1450 4450 2    50   ~ 0
 VCC
 Text Label 2450 4250 0    50   ~ 0
-MOTOR4
+B9
 Text Label 2450 4150 0    50   ~ 0
 STM_BOOT0
 Text Label 2450 4050 0    50   ~ 0
@@ -1748,21 +1748,6 @@ Wire Wire Line
 NoConn ~ 12050 2725
 NoConn ~ 12050 2825
 NoConn ~ 12050 1925
-$Comp
-L MicroMod_Extension:BMI270 U7
-U 1 1 6196DC76
-P 5025 6375
-F 0 "U7" H 5025 7342 50  0000 C CNN
-F 1 "BMI270" H 5025 7251 50  0000 C CNN
-F 2 "XDCR_BMI270" H 5025 6375 50  0001 L BNN
-F 3 "" H 5025 6375 50  0001 L BNN
-F 4 "Bosch Sensortec" H 5025 6375 50  0001 L BNN "MANUFACTURER"
-F 5 "1.0" H 5025 6375 50  0001 L BNN "PATREV"
-F 6 "0.87mm" H 5025 6375 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 7 "Manufacturer Recommendations" H 5025 6375 50  0001 L BNN "STANDARD"
-	1    5025 6375
-	1    0    0    -1  
-$EndComp
 NoConn ~ 5625 5975
 NoConn ~ 4425 5975
 NoConn ~ 4425 6675
@@ -1816,24 +1801,10 @@ Text Label 6225 5675 0    50   ~ 0
 VCCI
 Wire Wire Line
 	5675 5775 5675 5675
-Wire Wire Line
-	4425 6075 4250 6075
-Wire Wire Line
-	4250 6075 4250 5350
-Wire Wire Line
-	4250 5350 5675 5350
-Wire Wire Line
-	5675 5350 5675 5675
 Text Label 4425 6375 2    50   ~ 0
-IMU_SDA
+SPI2_MOSI
 Text Label 4425 6275 2    50   ~ 0
-IMU_SCL
-Wire Wire Line
-	4425 6475 4250 6475
-Wire Wire Line
-	4250 6475 4250 7225
-Wire Wire Line
-	4250 7225 5725 7225
+SPI2_SCK
 Connection ~ 5725 7225
 Wire Wire Line
 	5725 7225 5725 7300
@@ -2339,4 +2310,23 @@ F 3 "~" H 14325 4075 50  0001 C CNN
 	1    14325 4075
 	1    0    0    -1  
 $EndComp
+Text Label 4425 6475 2    50   ~ 0
+SPI2_MISO
+$Comp
+L MicroMod_Extension:BMI270 U7
+U 1 1 6196DC76
+P 5025 6375
+F 0 "U7" H 5025 7342 50  0000 C CNN
+F 1 "BMI270" H 5025 7251 50  0000 C CNN
+F 2 "XDCR_BMI270" H 5025 6375 50  0001 L BNN
+F 3 "" H 5025 6375 50  0001 L BNN
+F 4 "Bosch Sensortec" H 5025 6375 50  0001 L BNN "MANUFACTURER"
+F 5 "1.0" H 5025 6375 50  0001 L BNN "PATREV"
+F 6 "0.87mm" H 5025 6375 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 7 "Manufacturer Recommendations" H 5025 6375 50  0001 L BNN "STANDARD"
+	1    5025 6375
+	1    0    0    -1  
+$EndComp
+Text Label 4425 6075 2    50   ~ 0
+C13
 $EndSCHEMATC
