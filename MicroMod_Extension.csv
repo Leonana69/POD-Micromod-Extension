@@ -1,80 +1,80 @@
 Reference, Value, Footprint, Datasheet, Comment, EU_RoHS_Compliance, MANUFACTURER, STANDARD, PARTREV, MAXIMUM_PACKAGE_HEIGHT, category, digikey description, digikey part number, lead free, library id, manufacturer, mouser part number, package, rohs, temperature range high, temperature range low, PATREV
-J1,2199230-4,TE_2199230-4,,2199230-4,Compliant,,,,,,,,,,,,,,,,
-U2,nRF51822-QFAA-R7,Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm,http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.3.pdf,,,,,,,,,,,,,,,,,,
-U1,24aa64ft-eot,Package_TO_SOT_SMD:SOT-23-5,,,,,,,,,,,,,,,,,,,
-Y1,TSX-3225_16.0000MF18X-AC3,XTAL_TSX-3225_16.0000MF18X-AC3,,,,SEIKO EPSON CORPORATION,Manufacturer Recommendations,,,,,,,,,,,,,,
-C2,12p,Capacitor_SMD:C_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-C3,12p,Capacitor_SMD:C_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-C5,100n,Capacitor_SMD:C_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-C4,47n,Capacitor_SMD:C_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-FL1,2450BM14E0003T,FIL_2450BM14E0003T,,,,JOHANSON TECHNOLOGY,MANUFACTURER RECOMMENDATIONS,3,,,,,,,,,,,,,
-FL2,ADFC15-2450.00-A-T,MicroMod_Extension:FIL_ADFC15-2450.00-A-T,,,,ABRACON,Manufacturer Recommendations,12.03.12,0.43mm,,,,,,,,,,,,
-U3,RFX2411N,Package_DFN_QFN:QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm,,,,,,,,,,,,,,,,,,,
-C14,220p,Capacitor_SMD:C_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-C15,4.7u,Capacitor_SMD:C_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-L4,2nH,Inductor_SMD:L_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-R13,10K,Resistor_SMD:R_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-C17,2.2n,Capacitor_SMD:C_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-C16,220p,Capacitor_SMD:C_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-J3,RSP-122811-01,MicroMod_Extension:SAMTEC_RSP-122811-01,,,,Samtec,Manufacturer Recommendations,H,1.44mm,,,,,,,,,,,,
-FL3,ADFC15-2450.00-A-T,MicroMod_Extension:FIL_ADFC15-2450.00-A-T,,,,ABRACON,Manufacturer Recommendations,12.03.12,0.43mm,,,,,,,,,,,,
-C11,2.5p,Capacitor_SMD:C_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-L3,1nH,Inductor_SMD:L_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-L1,4.7nH,Inductor_SMD:L_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-E1,2450AT18B100E,MicroMod_Extension:XDCR_2450AT18B100E,,,,Johanson Technology,Manufacturer Recommendation,4,1.4 mm,,,,,,,,,,,,
-R2,5.1k,Resistor_SMD:R_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-R3,5.1k,Resistor_SMD:R_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-SW1,TL1014BF160QG,MicroMod_Extension:E-Switch-TL1014BF160QG-0,http://spec_sheets.e-switch.com/specs/P410002.pdf,,,,,,,Switch,SWITCH TACTILE SPST-NO 0.05A 12V,EG5042CT-ND,yes,ecc8c275f9bbb867,E-Switch,612-TL1014BF160QG,SW_SMT,yes,+70°C,-20°C,
-C7,100n,Capacitor_SMD:C_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-C9,10n,Capacitor_SMD:C_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-C12,10u,Capacitor_SMD:C_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-R15,90.9k,Resistor_SMD:R_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-L5,2.2uH-TYA2520102R2M-10,Inductor_SMD:L_1008_2520Metric,~,,,,,,,,,,,,,,,,,,
-C18,22u,Capacitor_SMD:C_0805_2012Metric,~,,,,,,,,,,,,,,,,,,
-R7,10K,Resistor_SMD:R_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-R6,10K,Resistor_SMD:R_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-R11,470k,Resistor_SMD:R_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-R12,110k,Resistor_SMD:R_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-C13,10n,Capacitor_SMD:C_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-D3,SMF4L17A,Diode_SMD:D_SOD-123,~,,,,,,,,,,,,,,,,,,
-U4,TPS62170DSG,Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias,http://www.ti.com/lit/ds/symlink/tps62170.pdf,,,,,,,,,,,,,,,,,,
-R14,470k,Resistor_SMD:R_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-D5,MBR0520-TP,Diode_SMD:D_SOD-123,~,,,,,,,,,,,,,,,,,,
-TP1,TestPoint,TestPoint:TestPoint_Pad_D1.0mm,~,,,,,,,,,,,,,,,,,,
-U5,NCP702SN30T1G,Package_TO_SOT_SMD:TSOT-23-5,,,,,,,,,,,,,,,,,,,
-U6,NCP702SN30T1G,Package_TO_SOT_SMD:TSOT-23-5,,,,,,,,,,,,,,,,,,,
-C19,1u,Capacitor_SMD:C_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-C22,1u,Capacitor_SMD:C_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-C20,1u,Capacitor_SMD:C_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-C21,1u,Capacitor_SMD:C_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-TP3,TestPoint,TestPoint:TestPoint_Pad_D1.0mm,~,,,,,,,,,,,,,,,,,,
-TP2,TestPoint,TestPoint:TestPoint_Pad_D1.0mm,~,,,,,,,,,,,,,,,,,,
-R1,150r,Resistor_SMD:R_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-D1,LED,MicroMod_Extension:LED-0603,~,,,,,,,,,,,,,,,,,,
-D2,150066RG74000,MicroMod_Extension:150066RG74000,,,,,,,,,,,,,,,,,,,
-D4,150066RG74000,MicroMod_Extension:150066RG74000,,,,,,,,,,,,,,,,,,,
-R5,150r,Resistor_SMD:R_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-R8,150r,Resistor_SMD:R_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-R9,150r,Resistor_SMD:R_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-R10,150r,Resistor_SMD:R_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-C6,100n,Capacitor_SMD:C_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-U7,BMI270,XDCR_BMI270,,,,Bosch Sensortec,Manufacturer Recommendations,,0.87mm,,,,,,,,,,,,1
-C1,100n,Capacitor_SMD:C_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-L2,1uH,Inductor_SMD:L_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-C25,4.7u,Capacitor_SMD:C_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-U8,BMP384,MicroMod_Extension:PQFN45P200X200X100-10N,,,,,,,,,,,,,,,,,,,
-C23,100n,Capacitor_SMD:C_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-C24,100n,Capacitor_SMD:C_0402_1005Metric,~,,,,,,,,,,,,,,,,,,
-J2,XKB_U262-16XN-4BVC11,Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11,,,,,,,,,,,,,,,,,,,
-J5,Conn_01x08,Connector_JST:JST_SUR_BM08B-SURS-TF_1x08-1MP_P0.80mm_Vertical,~,,,,,,,,,,,,,,,,,,
-J6,Conn_01x08,Connector_JST:JST_SUR_BM08B-SURS-TF_1x08-1MP_P0.80mm_Vertical,~,,,,,,,,,,,,,,,,,,
-TP4,Mount Hole,TestPoint:TestPoint_Plated_Hole_D3.0mm,~,,,,,,,,,,,,,,,,,,
-TP5,Mount Hole,TestPoint:TestPoint_Plated_Hole_D3.0mm,~,,,,,,,,,,,,,,,,,,
-TP6,Mount Hole,TestPoint:TestPoint_Plated_Hole_D3.0mm,~,,,,,,,,,,,,,,,,,,
-TP7,Mount Hole,TestPoint:TestPoint_Plated_Hole_D3.0mm,~,,,,,,,,,,,,,,,,,,
-TP8,Mount Hole,Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M2_H2.5mm_9774025243,~,,,,,,,,,,,,,,,,,,
-J7,Conn_01x04,Connector_JST:JST_SUR_SM04B-SURS-TF_1x04-1MP_P0.80mm_Horizontal,~,,,,,,,,,,,,,,,,,,
-J9,Conn_01x04,Connector_JST:JST_SUR_SM04B-SURS-TF_1x04-1MP_P0.80mm_Horizontal,~,,,,,,,,,,,,,,,,,,
-J8,Conn_01x04,Connector_JST:JST_SUR_SM04B-SURS-TF_1x04-1MP_P0.80mm_Horizontal,~,,,,,,,,,,,,,,,,,,
-J4,Screw_Terminal_01x04,Connector_JST:JST_SUR_SM04B-SURS-TF_1x04-1MP_P0.80mm_Horizontal,~,,,,,,,,,,,,,,,,,,
-J10,Conn_01x02,MicroMod_Extension:BATTARY,~,,,,,,,,,,,,,,,,,,
+"J1","2199230-4","TE_2199230-4","","2199230-4","Compliant","","","","","","","","","","","","","","","",""
+"U2","nRF51822-QFAA-R7","Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm","http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.3.pdf"
+"U1","24aa64ft-eot","Package_TO_SOT_SMD:SOT-23-5",""
+"Y1","TSX-3225_16.0000MF18X-AC3","XTAL_TSX-3225_16.0000MF18X-AC3","","","","SEIKO EPSON CORPORATION","Manufacturer Recommendations","","","","","","","","","","","","","",""
+"C2","12p","Capacitor_SMD:C_0402_1005Metric","~"
+"C3","12p","Capacitor_SMD:C_0402_1005Metric","~"
+"C5","100n","Capacitor_SMD:C_0402_1005Metric","~"
+"C4","47n","Capacitor_SMD:C_0402_1005Metric","~"
+"FL1","2450BM14E0003T","FIL_2450BM14E0003T","","","","JOHANSON TECHNOLOGY","MANUFACTURER RECOMMENDATIONS","3.0","","","","","","","","","","","","",""
+"FL2","ADFC15-2450.00-A-T","MicroMod_Extension:FIL_ADFC15-2450.00-A-T","","","","ABRACON","Manufacturer Recommendations","12.03.12","0.43mm","","","","","","","","","","","",""
+"U3","RFX2411N","Package_DFN_QFN:QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm",""
+"C14","220p","Capacitor_SMD:C_0402_1005Metric","~"
+"C15","4.7u","Capacitor_SMD:C_0402_1005Metric","~"
+"L4","2nH","Inductor_SMD:L_0402_1005Metric","~"
+"R13","10K","Resistor_SMD:R_0402_1005Metric","~"
+"C17","2.2n","Capacitor_SMD:C_0402_1005Metric","~"
+"C16","220p","Capacitor_SMD:C_0402_1005Metric","~"
+"J3","RSP-122811-01","MicroMod_Extension:SAMTEC_RSP-122811-01","","","","Samtec","Manufacturer Recommendations","H","1.44mm","","","","","","","","","","","",""
+"FL3","ADFC15-2450.00-A-T","MicroMod_Extension:FIL_ADFC15-2450.00-A-T","","","","ABRACON","Manufacturer Recommendations","12.03.12","0.43mm","","","","","","","","","","","",""
+"C11","2.5p","Capacitor_SMD:C_0402_1005Metric","~"
+"L3","1nH","Inductor_SMD:L_0402_1005Metric","~"
+"L1","4.7nH","Inductor_SMD:L_0402_1005Metric","~"
+"E1","2450AT18B100E","MicroMod_Extension:XDCR_2450AT18B100E","","","","Johanson Technology","Manufacturer Recommendation","4.0","1.4 mm","","","","","","","","","","","",""
+"R2","5.1k","Resistor_SMD:R_0402_1005Metric","~"
+"R3","5.1k","Resistor_SMD:R_0402_1005Metric","~"
+"SW1","TL1014BF160QG","MicroMod_Extension:E-Switch-TL1014BF160QG-0","http://spec_sheets.e-switch.com/specs/P410002.pdf","","","","","","","Switch","SWITCH TACTILE SPST-NO 0.05A 12V","EG5042CT-ND","yes","ecc8c275f9bbb867","E-Switch","612-TL1014BF160QG","SW_SMT","yes","+70°C","-20°C",""
+"C7","100n","Capacitor_SMD:C_0402_1005Metric","~"
+"C9","10n","Capacitor_SMD:C_0402_1005Metric","~"
+"C12","10u","Capacitor_SMD:C_0402_1005Metric","~"
+"R15","90.9k","Resistor_SMD:R_0402_1005Metric","~"
+"L5","2.2uH-TYA2520102R2M-10","Inductor_SMD:L_1008_2520Metric","~"
+"C18","22u","Capacitor_SMD:C_0805_2012Metric","~"
+"R7","10K","Resistor_SMD:R_0402_1005Metric","~"
+"R6","10K","Resistor_SMD:R_0402_1005Metric","~"
+"R11","470k","Resistor_SMD:R_0402_1005Metric","~"
+"R12","110k","Resistor_SMD:R_0402_1005Metric","~"
+"C13","10n","Capacitor_SMD:C_0402_1005Metric","~"
+"D3","SMF4L17A","Diode_SMD:D_SOD-123","~"
+"U4","TPS62170DSG","Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias","http://www.ti.com/lit/ds/symlink/tps62170.pdf"
+"R14","470k","Resistor_SMD:R_0402_1005Metric","~"
+"D5","MBR0520-TP","Diode_SMD:D_SOD-123","~"
+"TP1","TestPoint","TestPoint:TestPoint_Pad_D1.0mm","~"
+"U5","NCP702SN30T1G","Package_TO_SOT_SMD:TSOT-23-5",""
+"U6","NCP702SN30T1G","Package_TO_SOT_SMD:TSOT-23-5",""
+"C19","1u","Capacitor_SMD:C_0402_1005Metric","~"
+"C22","1u","Capacitor_SMD:C_0402_1005Metric","~"
+"C20","1u","Capacitor_SMD:C_0402_1005Metric","~"
+"C21","1u","Capacitor_SMD:C_0402_1005Metric","~"
+"TP3","TestPoint","TestPoint:TestPoint_Pad_D1.0mm","~"
+"TP2","TestPoint","TestPoint:TestPoint_Pad_D1.0mm","~"
+"R1","1k","Resistor_SMD:R_0402_1005Metric","~"
+"D1","LED","MicroMod_Extension:LED-0603","~"
+"D2","150066RG74000","MicroMod_Extension:150066RG74000",""
+"D4","150066RG74000","MicroMod_Extension:150066RG74000",""
+"R5","1k","Resistor_SMD:R_0402_1005Metric","~"
+"R8","1k","Resistor_SMD:R_0402_1005Metric","~"
+"R9","1k","Resistor_SMD:R_0402_1005Metric","~"
+"R10","1k","Resistor_SMD:R_0402_1005Metric","~"
+"C6","100n","Capacitor_SMD:C_0402_1005Metric","~"
+"L2","1uH","Inductor_SMD:L_0402_1005Metric","~"
+"C25","4.7u","Capacitor_SMD:C_0402_1005Metric","~"
+"J2","XKB_U262-16XN-4BVC11","Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11",""
+"J5","Conn_01x08","Connector_JST:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal","~"
+"J6","Conn_01x08","Connector_JST:JST_SUR_BM08B-SURS-TF_1x08-1MP_P0.80mm_Vertical","~"
+"TP4","Mount Hole","TestPoint:TestPoint_Plated_Hole_D3.0mm","~"
+"TP5","Mount Hole","TestPoint:TestPoint_Plated_Hole_D3.0mm","~"
+"TP6","Mount Hole","TestPoint:TestPoint_Plated_Hole_D3.0mm","~"
+"TP7","Mount Hole","TestPoint:TestPoint_Plated_Hole_D3.0mm","~"
+"TP8","Mount Hole","Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M2_H2.5mm_9774025243","~"
+"J7","Conn_01x04","Connector_JST:JST_SUR_SM04B-SURS-TF_1x04-1MP_P0.80mm_Horizontal","~"
+"J9","Conn_01x04","Connector_JST:JST_SUR_SM04B-SURS-TF_1x04-1MP_P0.80mm_Horizontal","~"
+"J8","Conn_01x04","Connector_JST:JST_SUR_SM04B-SURS-TF_1x04-1MP_P0.80mm_Horizontal","~"
+"J4","Screw_Terminal_01x04","Connector_JST:JST_SUR_SM04B-SURS-TF_1x04-1MP_P0.80mm_Horizontal","~"
+"J11","Screw_Terminal_01x04","Connector_JST:JST_SUR_SM04B-SURS-TF_1x04-1MP_P0.80mm_Horizontal","~"
+"U7","BMI270","XDCR_BMI270","","","","Bosch Sensortec","Manufacturer Recommendations","","0.87mm","","","","","","","","","","","","1.0"
+"C24","100n","Capacitor_SMD:C_0402_1005Metric","~"
+"C23","100n","Capacitor_SMD:C_0402_1005Metric","~"
+"U8","BMP384","MicroMod_Extension:PQFN45P200X200X100-10N",""
+"C1","100n","Capacitor_SMD:C_0402_1005Metric","~"
